@@ -21,13 +21,13 @@ img {
   margin: 10px;
   font-family: "Montserrat", sans-serif;
 
-  /* Buttons and Selected - cetered vertically */
+/* Buttons and Selected - cetered vertically */
 }
 .d-flex.flex-wrap div {
   align-self: center;
 }
 
-/* 100% - fixed space issue with "(  100%)" */
+/* 100% - fixed space issue with "(100%)" */
 div span[style="min-width: 3em; text-align: right; display: inline-block;"] {
   min-width: 0px !important;
 }
@@ -167,7 +167,7 @@ tr td:nth-child(3) {
 }
 
 .pplot-label {
-  x: -38;
+  x: -40;
 }
 
 svg {
@@ -180,8 +180,8 @@ canvas {
 
 canvas,
 svg {
-  transform: scale(0.95) translateX(0px);
-  /* width: 100%; */
+  transform: scale(.95) translateX(0px);
+  /* width: 3000px; */
 }
 
 @media screen and (max-width: 1330px) {
